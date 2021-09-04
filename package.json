@@ -1,0 +1,26 @@
+{
+  "name": "react-pointer-type",
+  "type": "module",
+  "source": "src/index.ts",
+  "exports": "./dist/react-pointer-type.modern.js",
+  "main": "./dist/react-pointer-type.cjs",
+  "module": "./dist/react-pointer-type.module.js",
+  "unpkg": "./dist/react-pointer-type.umd.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "microbundle": "^0.13.3",
+    "np": "^7.5.0",
+    "prettier": "^2.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}

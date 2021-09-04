@@ -1,0 +1,11 @@
+:global(.mouse) .pointerStyled {
+  background: red;
+}
+
+:global(.touch) .pointerStyled {
+  background: blue;
+}
+
+:global(.pen) .pointerStyled {
+  background: green;
+}
