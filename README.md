@@ -8,6 +8,30 @@ React hooks for adapting to pointer type changes. The correct alternative to fea
 yarn add react-pointer-type
 ```
 
+```css
+/* App.module.css */
+
+:global(.mouse) .pointerIndicator {
+  background: red;
+}
+
+:global(.touch) .pointerIndicator {
+  background: blue;
+}
+
+:global(.pen) .pointerIndicator {
+  background: green;
+}
+
+.matchIndicator {
+  background: red;
+}
+
+:global(.nohover) .matchIndicator {
+  background: green;
+}
+```
+
 ```tsx
 import React from 'react';
 import styles from './App.module.css';
