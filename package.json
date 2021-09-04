@@ -9,7 +9,8 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch",
+    "build:example": "cd example && yarn build"
   },
   "devDependencies": {
     "@types/react": "^17.0.19",
