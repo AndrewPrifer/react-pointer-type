@@ -1,11 +1,19 @@
-:global(.mouse) .pointerStyled {
+:global(.mouse) .pointerIndicator {
   background: red;
 }
 
-:global(.touch) .pointerStyled {
+:global(.touch) .pointerIndicator {
   background: blue;
 }
 
-:global(.pen) .pointerStyled {
+:global(.pen) .pointerIndicator {
+  background: green;
+}
+
+.matchIndicator {
+  background: red;
+}
+
+:global(.nohover) .matchIndicator {
   background: green;
 }

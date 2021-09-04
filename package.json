@@ -1,4 +1,19 @@
 {
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "React hooks for adapting to pointer type changes. The correct alternative to feature detection.",
+  "keywords": [
+    "react",
+    "pointer",
+    "pointer events",
+    "feature detection",
+    "touch",
+    "pen",
+    "mouse",
+    "input",
+    "device"
+  ],
+  "repository": "AndrewPrifer/react-pointer-type",
   "name": "react-pointer-type",
   "type": "module",
   "source": "src/index.ts",
@@ -7,6 +22,10 @@
   "module": "./dist/react-pointer-type.module.js",
   "unpkg": "./dist/react-pointer-type.umd.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",

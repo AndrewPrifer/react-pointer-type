@@ -1,3 +1,14 @@
+# React Pointer Type
+
+React hooks for adapting to pointer type changes. The correct alternative to feature detection.
+
+## Quick start
+
+```
+yarn add react-pointer-type
+```
+
+```tsx
 import React from 'react';
 import styles from './App.module.css';
 import {
@@ -5,7 +16,7 @@ import {
   useMatchPointerTypeClassName,
   usePointerType,
   usePointerTypeClassName,
-} from '../../';
+} from 'react-pointer-type';
 
 function App() {
   const inputType = usePointerType();
@@ -30,3 +41,4 @@ function App() {
 }
 
 export default App;
+```
