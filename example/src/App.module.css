@@ -14,6 +14,6 @@
   background: red;
 }
 
-:global(.nohover) .matchIndicator {
+:global(:is(.touch, .pen)) .matchIndicator {
   background: green;
 }
