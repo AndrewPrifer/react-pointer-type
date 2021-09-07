@@ -9,11 +9,3 @@
 :global(.pen) .pointerIndicator {
   background: green;
 }
-
-.matchIndicator {
-  background: red;
-}
-
-:global(:is(.touch, .pen)) .matchIndicator {
-  background: green;
-}
