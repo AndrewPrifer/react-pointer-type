@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "description": "React hooks for adapting to pointer type changes. The correct alternative to feature detection.",
   "keywords": [
