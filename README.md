@@ -37,7 +37,7 @@ yarn add react-pointer-type
 ```tsx
 import React from 'react';
 import './App.css';
-import { usePointerType } from '../../';
+import { usePointerType } from 'react-pointer-type';
 
 function App() {
   const inputType = usePointerType({
