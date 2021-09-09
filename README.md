@@ -19,24 +19,24 @@ yarn add react-pointer-type
 ```
 
 ```css
-/* App.module.css */
+/* App.css */
 
-:global(.mouse) .pointerIndicator {
+.mouse .pointer-indicator {
   background: red;
 }
 
-:global(.touch) .pointerIndicator {
+.touch .pointer-indicator {
   background: blue;
 }
 
-:global(.pen) .pointerIndicator {
+.pen .pointer-indicator {
   background: green;
 }
 ```
 
 ```tsx
 import React from 'react';
-import styles from './App.module.css';
+import './App.css';
 import { usePointerType } from '../../';
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
   return (
     <div>
       <div>Current pointer type: {inputType}</div>
-      <div className={styles.pointerIndicator}>
+      <div className="pointer-indicator">
         This div is red for mouse, blue for touch and green for pen.
       </div>
     </div>
